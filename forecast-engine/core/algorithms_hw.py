@@ -2,10 +2,10 @@
 # DGS Forecast Engine — Holt-Winters / ETS
 # Equivalente a: HoltWinter() in coreAlgorithmMA.m
 #
-# Usa statsforecast.models.AutoETS:
+# Usa statsforecast.models.AutoETS: 
 #   - Seleziona automaticamente il miglior modello ETS (Error/Trend/Season)
 #   - Ottimizza alpha, beta, gamma con L-BFGS-B (più preciso del GA Matlab)
-#   - 10-20x più veloce di Matlab
+#   - 10-20x più veloce di Matlab  xxx
 # =============================================================================
 
 import numpy as np
